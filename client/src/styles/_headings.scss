@@ -1,0 +1,19 @@
+.heading-base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  color: $color-global;
+  margin: 0 0 4rem 0;
+
+  &:after {
+    content: "";
+    width: 8.2rem;
+    height: 0.4rem;
+    background-color: $color-success;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "k9n",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -e ../.env -e ../.env.development vite",
+    "build": "dotenv -e ../.env -e ../.env.production vite build --emptyOutDir",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@hennge/vue3-pagination": "^1.0.17",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.4.0",
+    "dotenv-cli": "^7.3.0",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.6",
+    "swiper": "^10.2.0",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.4",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue-yandex-maps": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "chokidar": "^3.5.3",
+    "sass": "^1.66.0",
+    "sharp": "^0.32.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
